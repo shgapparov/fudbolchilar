@@ -96,12 +96,12 @@ function qidirish() {
    })
    if(qiymat == "kam"){
       topilgan = topilgan.sort((a,b)=>{
-         return a.goals - b.goals
+         return b.goals - a.goals
       })
    }
    if(qiymat == "kup"){
       topilgan = topilgan.sort((a,b)=>{
-         return b.goals - a.goals
+         return a.goals - b.goals
       })
    }
    Yaratish(topilgan)
